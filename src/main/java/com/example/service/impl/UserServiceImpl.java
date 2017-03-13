@@ -25,7 +25,7 @@ public class UserServiceImpl implements UserService {
     }//feichang
     
     public User getUserByPhoneOrEmail(String emailOrPhone, Short state) {//nihao
-        return userDao.selectUserByPhoneOrEmail(emailOrPhone,state);
+        return userDao.selectUserByPhoneOrEmail(emailOrPhone,state);//nibuhao
     }
     
     public List<User> getAllUser() {
