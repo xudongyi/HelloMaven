@@ -18,7 +18,7 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     
     @Resource
-    private UserDao userDao;
+    private UserDao userDao;//ceshi
 
     public User getUserById(Long userId) {
         return userDao.selectUserById(userId);
