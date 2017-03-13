@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService {
 
     public User getUserById(Long userId) {
         return userDao.selectUserById(userId);
-    }
+    }//feichang
     
     public User getUserByPhoneOrEmail(String emailOrPhone, Short state) {
         return userDao.selectUserByPhoneOrEmail(emailOrPhone,state);
